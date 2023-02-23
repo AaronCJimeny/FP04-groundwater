@@ -11,5 +11,6 @@ We will also evaluate the correlation between groundwater levels and wildfire oc
 - Tools/packages you’ll use (with links)
 - Planned methodology/approach
 - Expected outcomes
+getting a good grade 
 - Any other relevant information, images/tables, references, etc.
 - References
