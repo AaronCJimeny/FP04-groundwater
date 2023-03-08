@@ -6,12 +6,17 @@ and Luke Mazza (LM2025)
 We will also evaluate the correlation between groundwater levels and wildfire occurences/frequency. 
 - In the 21st century, The United States has experienced great flucuation in groundwater levels/concentration. There has been an increasing amount of wildfires within the nation as well. 
 #### Problem statement, question(s) and/or objective(s): 
+1) Our primary objective is to analyze trends in water level data for groundwater aquifers in the United States. Databanks that we have explored extend back 20 years or more, so we have excellent long-form data with which to analyze these trends. 
+2) Our research questions for this analysis include: How rapidly are waterlevels changing? Will these rates of change indicate that the aquifer will dry out in the near future (e.g. 25 years or less)? Have any aquifers dried up or become unuseable since data collection started, and if so, how many? Is there a correlation between the number or spread of wildfires in areas with low groundwater levels? Is there a significant increase in quantity and spread of wildfires in an area after groundwater levels have been reduced? 
 #### Datasets you will use (with links, if available): Data sets we will use inlcude data from  NOAA, USGS, BLR, National Agruclutrar Statistics Survey
 -- From the USGS this dataset shows the depth to water level from the surface across various colorado counties. Using the parent website datasets for other states and counties can be found. https://waterdata.usgs.gov/co/nwis/current/?type=gw&group_key=county_cd National Map view:https://cida.usgs.gov/ngwmn/index.jsp
 -- From data.gov, an aggregate of different types of groundwater datasets https://catalog.data.gov/dataset?tags=groundwater
 -- From the Bereau of Reclamation, a map that displays data for regions across western US https://data.usbr.gov/rise-map/ -- 
 #### Tools/packages you’ll use (with links): 
-
+- [Matplotlib](https://github.com/matplotlib)
+- [pandas](https://github.com/pandas-dev)
+- [NumPy](https://github.com/numpy)
+- [Python](https://github.com/python)
 #### Planned methodology/approach:
 Approach:
 
