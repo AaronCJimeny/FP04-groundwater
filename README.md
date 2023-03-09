@@ -7,7 +7,7 @@ We will also evaluate the correlation between groundwater levels and wildfire oc
 - In the 21st century, The United States has experienced great flucuation in groundwater levels/concentration. There has been an increasing amount of wildfires within the nation as well. 
 #### Problem statement, question(s) and/or objective(s): 
 1) Our primary objective is to analyze trends in water level data for groundwater aquifers in the United States. Databanks that we have explored extend back 20 years or more, so we have excellent long-form data with which to analyze these trends. 
-2) Our research questions for this analysis include: How rapidly are waterlevels changing? Will these rates of change indicate that the aquifer will dry out in the near future (e.g. 25 years or less)? Have any aquifers dried up or become unuseable since data collection started, and if so, how many? Is there a correlation between the number or spread of wildfires in areas with low groundwater levels? Is there a significant increase in quantity and spread of wildfires in an area after groundwater levels have been reduced? 
+2) Our research questions for this analysis include: How rapidly are waterlevels changing? Will these rates of change indicate that the aquifer will dry out in the near future (e.g. 25 years or less)? Have any aquifers dried up or become unuseable since data collection started, and if so, how many? Is there a difference in the pattern of groundwater levels between the eastern and western United States? Is there a correlation between the number or spread of wildfires in areas with low groundwater levels? Is there a significant increase in quantity and spread of wildfires in an area after groundwater levels have been reduced? 
 #### Datasets you will use (with links, if available): Data sets we will use inlcude data from  NOAA, USGS, BLR, National Agruclutrar Statistics Survey
 -- From the USGS this dataset shows the depth to water level from the surface across various colorado counties. Using the parent website datasets for other states and counties can be found. https://waterdata.usgs.gov/co/nwis/current/?type=gw&group_key=county_cd National Map view:https://cida.usgs.gov/ngwmn/index.jsp
 -- From data.gov, an aggregate of different types of groundwater datasets https://catalog.data.gov/dataset?tags=groundwater
@@ -43,8 +43,8 @@ Methods:
 #### Present or anticpated challenges  
 - Some challenges we currently anticipate is our data manipulation and cleansing process. It might take significant work to properly visualize and interpret our findings. A current challenge we are also facing is finding usable datasets to employ. Dataset acquisition is a foreign concept to most of us and it might take some practice to find the best datasets for our project.  
 #### Expected outcomes
-getting a good grade 
-- Any other relevant information, images/tables, references, etc.
+- We expect to find a strong pattern of declining water levels of groundwater in the United States. 
+- We expect that the decline in water levels in a region will correlate with an increased severity of wildfires in the same timeframe. 
 #### References: 
 1- https://droughtmonitor.unl.edu/CurrentMap.aspx
 
