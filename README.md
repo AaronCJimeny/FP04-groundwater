@@ -50,3 +50,6 @@ Methods:
 
 2- https://crgov.com/1792/Groundwater#:~:text=Castle%20Rock%2C%20and%20most%20South,Denver%2C%20Arapahoe%20and%20Laramie%20aquifers.
 
+3- https://www.ncei.noaa.gov/access/monitoring/wildfires/ytd/0
+
+4- https://frap.fire.ca.gov/mapping/gis-data/
