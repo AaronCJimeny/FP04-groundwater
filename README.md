@@ -10,6 +10,7 @@ We will also evaluate the correlation between groundwater levels and wildfire oc
 2) Our research questions for this analysis include: How rapidly are waterlevels changing? Will these rates of change indicate that the aquifer will dry out in the near future (e.g. 25 years or less)? Have any aquifers dried up or become unuseable since data collection started, and if so, how many? Is there a difference in the pattern of groundwater levels between the eastern and western United States? Is there a correlation between the number or spread of wildfires in areas with low groundwater levels? Is there a significant increase in quantity and spread of wildfires in an area after groundwater levels have been reduced? 
 #### Datasets you will use (with links, if available): Data sets we will use inlcude data from  NOAA, USGS, BLR, National Agruclutrar Statistics Survey
 -- From the USGS this dataset shows the depth to water level from the surface across various colorado counties. Using the parent website datasets for other states and counties can be found. https://waterdata.usgs.gov/co/nwis/current/?type=gw&group_key=county_cd National Map view:https://cida.usgs.gov/ngwmn/index.jsp
+Historical Groundwater Data: https://waterdata.usgs.gov/nwis/uv/?referred_module=gw
 -- From data.gov, an aggregate of different types of groundwater datasets https://catalog.data.gov/dataset?tags=groundwater
 -- From the Bereau of Reclamation, a map that displays data for regions across western US https://data.usbr.gov/rise-map/ -- 
 #### Tools/packages you’ll use (with links): 
@@ -50,3 +51,8 @@ Methods:
 
 2- https://crgov.com/1792/Groundwater#:~:text=Castle%20Rock%2C%20and%20most%20South,Denver%2C%20Arapahoe%20and%20Laramie%20aquifers.
 
+3- https://www.ncei.noaa.gov/access/monitoring/wildfires/ytd/0
+
+4- https://frap.fire.ca.gov/mapping/gis-data/
+
+5- https://catalog.data.gov/dataset/monitoring-trends-in-burn-severity-burned-area-boundaries-feature-layer-27201
