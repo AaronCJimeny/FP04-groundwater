@@ -53,3 +53,5 @@ Methods:
 3- https://www.ncei.noaa.gov/access/monitoring/wildfires/ytd/0
 
 4- https://frap.fire.ca.gov/mapping/gis-data/
+
+5- https://catalog.data.gov/dataset/monitoring-trends-in-burn-severity-burned-area-boundaries-feature-layer-27201
