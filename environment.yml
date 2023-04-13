@@ -1,0 +1,10 @@
+name: MasterGDW
+channels:
+  - conda-forge
+dependencies:
+  - python=3.19
+  - numpy
+  - pandas
+  - matplotlib-base
+  - sklearn-base
+  - pip
