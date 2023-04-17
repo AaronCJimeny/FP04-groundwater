@@ -1,0 +1,4 @@
+"AgencyCd","SiteNo","LithologyID","LithologyDescription","LithologyControlledConcept","lang","uom","LithologyDepthFrom","LithologyDepthFromUnit","LithologyDepthTo","LithologyDepthToUnit"
+"USGS","385607104230801","USGS.385607104230801.1.0","","","eng","Unknown","120.","feet","185.","feet"
+"USGS","384506104241302","USGS.384506104241302.1.0","","","eng","Unknown","195.","feet","320.","feet"
+"USGS","384348104232901","USGS.384348104232901.1.0","","","eng","Unknown","75.","feet","190.","feet"

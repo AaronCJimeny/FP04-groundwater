@@ -1,0 +1,10 @@
+AgencyCd,SiteNo,ScreenDepthFrom,ScreenDepthFromUnit,ScreenDepthTo,ScreenDepthToUnit,holeSize,holeSizeUnit,ScreenMaterial,ScreenDiameter,ScreenDiameterUnit
+"USGS",385607104230801,135,feet,140,feet,"","","PVC, Fbrgls/Plst",4.00,"in"
+"USGS",385344104242401,60,feet,80,feet,"","","PVC, Fbrgls/Plst",4.5,"in"
+"USGS",390010104385101,280,feet,480,feet,"","","PVC, Fbrgls/Plst",4.5,"in"
+"USGS",390148104285401,100,feet,195,feet,"","","PVC, Fbrgls/Plst",4.5,"in"
+"USGS",385208104324401,140,feet,310,feet,"","","PVC, Fbrgls/Plst",4,"in"
+"USGS",384824104332601,110,feet,182,feet,"","","Steel",4.5,"in"
+"USGS",384824104332601,195,feet,220,feet,"","","Steel",4.5,"in"
+"USGS",384506104241302,283,feet,288,feet,"","","PVC, Fbrgls/Plst",4.00,"in"
+"USGS",384348104232901,140.00,feet,145.00,feet,"","","PVC, Fbrgls/Plst",4.00,"in"
