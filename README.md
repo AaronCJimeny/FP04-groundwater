@@ -1,13 +1,16 @@
-# FP04-groundwater
-- Project Title: Connecting Wildfire Frequency, Drought Prevalence, and Groundwater Fluctuation in the Western United States.  
-- Name(s) and GitHub handles of individual or team members: Aaron Jimenez (@AaronCJimeny), Aiden Hamre (@Ahamre), Thomas Ho (@thomasho123), 
-and Luke Mazza (LM2025)
-- Our group will collect datasets containing groundwater levels and evaluate their flucuation as a function of time.
-We will also evaluate the correlation between groundwater/drought levels and wildfire occurences/frequency. 
-- In the 21st century, The United States has experienced great flucuation in groundwater levels/concentration. There has been increasing severity of wildfires and drought within the American West as well. 
+# Connecting Wildfire Frequency, Drought Prevalence, and Groundwater Fluctuation in the Western United States.  
+#### Name(s) and GitHub handles of team members: 
+- Aaron Jimenez (@AaronCJimeny)
+- Aiden Hamre (@Ahamre) 
+- Thomas Ho (@thomasho123)
+- Luke Mazza (LM2025)
+#### Project Summary 
+- This project compiled droubt data from the United States Droubt Monitor, wildfire data for the United States from the National Interagency Fire Center and for Colorado from the Department of Agriculture, and groundwater data from the USGS National Groundwater Monitoring Network. 
+- Our inspiration for completing this project is that in the 21st century, there has been increasing attention in the United States directed toward these topics: droubt and water security in the Western States and wildfire risk, particularly in California
+- We analyzed these datasets with respect to time, looking for correlations between droubt severity, wildfire frequency and severity, and groundwater levels. This project discusses trends in drought and wildfire for the United States, and trends in wildfire, drought, and groundwater level for the state of Colorado. 
 #### Problem statement, question(s) and/or objective(s): 
 1) Our primary objective is to analyze the connection between water level, drought, and wildfire in the United States. Datasets that we have explored extend back 20 years or more, so we have excellent long-form data with which to analyze these trends. 
-2) Our research questions for this analysis include: How are waterlevels changing? Will these rates of change indicate that the aquifer will dry out in the near future (e.g. 25 years or less)? Have any aquifers dried up or become unuseable since data collection started, and if so, how many? Is there a correlation between the number or spread of wildfires in areas with low groundwater levels? How does drought severity affect groundwater fluctuation? Is there a clear connection between all three of these quanities?  
+2) Our research questions for this analysis include: How are waterlevels changing? Is there a correlation between the number or spread of wildfires in areas with low groundwater levels? How does drought severity affect groundwater fluctuation? Is there a clear connection between all three of these quanities?  
 #### Datasets you will use (with links, if available): Data sets we will use inlcude data from  NOAA, USGS, BLR, National Agruclutrar Statistics Survey
 -- From the USGS this dataset shows the depth to water level from the surface across various colorado counties. Using the parent website datasets for other states and counties can be found. https://cida.usgs.gov/ngwmn/index.jsp National Map view:https://cida.usgs.gov/ngwmn/index.jsp
 -- Drought Monitor Datasets: https://droughtmonitor.unl.edu/DmData/DataDownload/ComprehensiveStatistics.aspx
@@ -41,11 +44,19 @@ Methods:
 - Github
 - Anaconda/Python
 
-#### Present or anticpated challenges  
-- Some challenges we currently anticipate is our data manipulation and cleansing process. It might take significant work to properly visualize and interpret our findings. A current challenge we are also facing is finding usable datasets to employ. Dataset acquisition is a foreign concept to most of us and it might take some practice to find the best datasets for our project.  
-#### Expected outcomes
-- We expect to find a strong pattern of declining water levels of groundwater in the United States. 
-- We expect that the decline in water levels in a region will correlate with an increased severity of wildfires/drought in the same timeframe. 
+#### Results:  
+- Expected outcomes
+    - We expect to find a strong pattern of declining water levels of groundwater in the United States. 
+    - We expect that the decline in water levels in a region will correlate with an increased severity of wildfires/drought in the same timeframe. 
+- Findings
+    - At a national scale, droubt and wildfire were somewhat correlated in our data, but it was clear that more factors contribute to wildfire prevalance and severity.
+    - For Colorado specifically, however, droubt severity and wildfire severity were very closely related.
+    - For Colorado, there was no correlation between groundwater level and droubt severity or wildfire severity.
+#### Member Contributions:
+- Aaron Jimenez: Groundwater Analysis, final version of README
+- Luke Mazza: Drought Analysis, 
+- Thomas Ho: National Wildfire Analysis
+- Aiden Hamre: Colorado Wildfire Analysis
 #### References: 
 1- https://droughtmonitor.unl.edu/CurrentMap.aspx
 
