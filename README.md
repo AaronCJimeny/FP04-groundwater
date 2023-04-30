@@ -3,18 +3,26 @@
 - Aaron Jimenez (@AaronCJimeny)
 - Aiden Hamre (@Ahamre) 
 - Thomas Ho (@thomasho123)
-- Luke Mazza (LM2025)
+- Luke Mazza (@LM2025)
 #### Project Summary 
 - This project compiled droubt data from the United States Droubt Monitor, wildfire data for the United States from the National Interagency Fire Center and for Colorado from the Department of Agriculture, and groundwater data from the USGS National Groundwater Monitoring Network. 
 - Our inspiration for completing this project is that in the 21st century, there has been increasing attention in the United States directed toward these topics: droubt and water security in the Western States and wildfire risk, particularly in California
 - We analyzed these datasets with respect to time, looking for correlations between droubt severity, wildfire frequency and severity, and groundwater levels. This project discusses trends in drought and wildfire for the United States, and trends in wildfire, drought, and groundwater level for the state of Colorado. 
+#### How to Use This Repository
+- This repository contains the environment, all datasets, and all code that we used to complete our project. The order of completion and analysis is as follows: part 1 of our project is the droubt notebook, part 2 includes National and Colorado specific wildfire analysis, and part 3 is the Colorado groundwater level analysis. In order to reproduce this workflow, first run the environment.yml file to recreate the python environment, then process the datasets in the order listed above. 
 #### Problem statement, question(s) and/or objective(s): 
 1) Our primary objective is to analyze the connection between water level, drought, and wildfire in the United States. Datasets that we have explored extend back 20 years or more, so we have excellent long-form data with which to analyze these trends. 
 2) Our research questions for this analysis include: How are waterlevels changing? Is there a correlation between the number or spread of wildfires in areas with low groundwater levels? How does drought severity affect groundwater fluctuation? Is there a clear connection between all three of these quanities?  
-#### Datasets you will use (with links, if available): Data sets we will use inlcude data from  NOAA, USGS, BLR, National Agruclutrar Statistics Survey
--- From the USGS this dataset shows the depth to water level from the surface across various colorado counties. Using the parent website datasets for other states and counties can be found. https://cida.usgs.gov/ngwmn/index.jsp National Map view:https://cida.usgs.gov/ngwmn/index.jsp
--- Drought Monitor Datasets: https://droughtmonitor.unl.edu/DmData/DataDownload/ComprehensiveStatistics.aspx
--- Wildfire Datasets: https://catalog.data.gov/dataset/monitoring-trends-in-burn-severity-burned-area-boundaries-feature-layer-27201. https://catalog.data.gov/dataset/monitoring-trends-in-burn-severity-burned-area-boundaries-feature-layer-27201
+#### Datasets you will use (with links, if available): Data sets we will use inlcude data from  NOAA, USGS, BLR, National Agricultural Statistics Survey
+- Where we found the data:
+    - From the USGS this dataset shows the depth to water level from the surface across various colorado counties. Using the parent website datasets for other states and counties can be found. https://cida.usgs.gov/ngwmn/index.jsp National Map view:https://cida.usgs.gov/ngwmn/index.jsp
+    - Drought Monitor Datasets: https://droughtmonitor.unl.edu/DmData/DataDownload/ComprehensiveStatistics.aspx
+    - Wildfire Datasets: https://catalog.data.gov/dataset/monitoring-trends-in-burn-severity-burned-area-boundaries-feature-layer-27201. https://catalog.data.gov/dataset/monitoring-trends-in-burn-severity-burned-area-boundaries-feature-layer-27201
+- Datasets Used: 
+    - Groundwater data by location in Colorado: [Ogallala](https://github.com/GPGN-268/FP04-groundwater/tree/main/data/groundwater_data/USGS_California) , [Colorado Springs](https://github.com/GPGN-268/FP04-groundwater/tree/main/data/groundwater_data/USGS_ColoradoSprings) , [Rio Grande](https://github.com/GPGN-268/FP04-groundwater/tree/main/data/groundwater_data/USGS_Rio_Grande)
+    - [Wildfire Data](https://github.com/GPGN-268/FP04-groundwater/tree/main/data/wildfire_data)
+    - [Droubt Monitor](https://github.com/GPGN-268/FP04-groundwater/tree/main/data/drought_monitor_data)
+    
 #### Tools/packages you’ll use (with links): 
 - [Matplotlib](https://github.com/matplotlib)
 - [pandas](https://github.com/pandas-dev)
@@ -50,13 +58,16 @@ Methods:
     - We expect that the decline in water levels in a region will correlate with an increased severity of wildfires/drought in the same timeframe. 
 - Findings
     - At a national scale, droubt and wildfire were somewhat correlated in our data, but it was clear that more factors contribute to wildfire prevalance and severity.
-    - For Colorado specifically, however, droubt severity and wildfire severity were very closely related.
-    - For Colorado, there was no correlation between groundwater level and droubt severity or wildfire severity.
+    - For Colorado specifically, however, droubt severity and wildfire severity were very closely related. Both data had strong spikes in the years 2002, 2012, 2018, and 2022.
+    - For Colorado, there was no correlation between groundwater level and droubt severity or wildfire severity, and there were no responses in the data to the strong drought and wildfire years. 
+- Conclusions
+    - Due to time constraints, a nation-wide analysis of groundwater levels was unable to be conducted. However, for Colorado, a minor trend of decreasing levels was observed, although the magnitude and time scale were both too small for strong conclusions to be drawn. 
+    - A strong correlation between drought severity and wildfire occurence and propagation were observed in Colorado. However, the trend was noticeably diluted at a national scale. 
 #### Member Contributions:
 - Aaron Jimenez: Groundwater Analysis, final version of README
-- Luke Mazza: Drought Analysis, 
-- Thomas Ho: National Wildfire Analysis
-- Aiden Hamre: Colorado Wildfire Analysis
+- Luke Mazza: Drought Analysis notebook and figures, intial README, folder structure for repository
+- Thomas Ho: National Wildfire Analysis notebook and figures, locating data sources
+- Aiden Hamre: Colorado Wildfire Analysis notebook and figures, locating data sources
 #### References: 
 1- https://droughtmonitor.unl.edu/CurrentMap.aspx
 
